@@ -65,7 +65,7 @@ h1 {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    grid-template-rows: 50% 50%;
+    
 }
 
 .logo-deporte {
@@ -200,5 +200,76 @@ padding-top: 10px;
 }
 
 @media (max-width:1024px){
+    .encabezado{
+        background-color: red;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .actividades-lista {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+ 
+    }
+        
+
+@media (max-width:768px){
+
+    .encabezado{
+        background-color: red;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .actividades-lista {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        .logo-deporte {
+            display: flex;
+            justify-content: center;
+            
+            
+        }  
+        .logo-deporte img{
+
+            width: 100px;
+            height: 100px;
+        }  
+
     
+    
+    
+
+
+}
+
+
+    
+}
+@media (max-width:425px){
+    .agenda-semanal {
+        text-align: left;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-indent: 30px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .pie-de-pagina {
+        background-color: red;
+        padding: 20px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 20px;
+        font-size: 8px;
+        justify-content: space-between
+    } 
 }
