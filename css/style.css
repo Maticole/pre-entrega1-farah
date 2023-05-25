@@ -252,7 +252,7 @@ padding-top: 10px;
 
     
 }
-@media (max-width:425px){
+@media (max-width:320px){
     .agenda-semanal {
         text-align: left;
         font-size: 10px;
@@ -261,6 +261,16 @@ padding-top: 10px;
         line-height: 25px;
         margin-top: 20px;
     }
+    .asociate{
+        display: none;
+        }
+       
+    
+    
+    
+    
+        
+    
     .pie-de-pagina {
         background-color: red;
         padding: 20px;
